@@ -1,5 +1,5 @@
-// 优惠券计算模块（演练占位）
+// 脫脜禄脻脠炉录脝脣茫脛拢驴茅拢篓脩脻脕路脮录脦禄拢漏
 function calculateCoupon(amount) {
-    return amount * 0.1;
+    return amount * 0.2;
 }
 module.exports = { calculateCoupon };
