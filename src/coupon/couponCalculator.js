@@ -1,5 +1,8 @@
-// ÓÅ»İÈ¯¼ÆËãÄ£¿é£¨ÑİÁ·Õ¼Î»£©
-function calculateCoupon(amount) {
-    return amount * 0.1;
+// ä¼˜æƒ åˆ¸è®¡ç®—æ¨¡å—ï¼ˆBob çš„ develop ä¿®æ”¹ï¼‰
+function calculateCoupon(amount, userLevel) {
+  // PM-Bob æ”¹äº†è¿™è¡Œä»£ç 
+  let discount = amount * 0.2; 
+  
+  return amount - discount;
 }
 module.exports = { calculateCoupon };
